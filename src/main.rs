@@ -2,6 +2,7 @@ mod arrays;
 mod cli;
 mod conditionals;
 mod enums;
+mod functions;
 
 fn main() {
     println!("--- Arrays ---");
@@ -18,5 +19,9 @@ fn main() {
 
     println!("--- Enums ---");
     enums::main();
+    println!("");
+
+    println!("--- Functions ---");
+    functions::main();
     println!("");
 }
