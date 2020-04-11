@@ -9,6 +9,7 @@ mod print;
 mod strings;
 mod structs;
 mod tuples;
+mod types;
 
 fn main() {
     println!("--- Arrays ---");
@@ -53,5 +54,9 @@ fn main() {
 
     println!("--- Tuples ---");
     tuples::main();
+    println!("");
+
+    println!("--- Types ---");
+    types::main();
     println!("");
 }
