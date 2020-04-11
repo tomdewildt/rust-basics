@@ -7,6 +7,7 @@ mod loops;
 mod pointers;
 mod print;
 mod strings;
+mod structs;
 
 fn main() {
     println!("--- Arrays ---");
@@ -43,5 +44,9 @@ fn main() {
 
     println!("--- Strings ---");
     strings::main();
+    println!("");
+
+    println!("--- Structs ---");
+    structs::main();
     println!("");
 }
