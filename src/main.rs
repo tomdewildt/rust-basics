@@ -11,6 +11,7 @@ mod structs;
 mod tuples;
 mod types;
 mod variables;
+mod vectors;
 
 fn main() {
     println!("--- Arrays ---");
@@ -63,5 +64,9 @@ fn main() {
 
     println!("--- Variables ---");
     variables::main();
+    println!("");
+
+    println!("--- Vectors ---");
+    vectors::main();
     println!("");
 }
