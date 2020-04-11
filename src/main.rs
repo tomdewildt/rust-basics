@@ -5,6 +5,7 @@ mod enums;
 mod functions;
 mod loops;
 mod pointers;
+mod print;
 
 fn main() {
     println!("--- Arrays ---");
@@ -33,5 +34,9 @@ fn main() {
 
     println!("--- Pointers ---");
     pointers::main();
+    println!("");
+
+    println!("--- Print ---");
+    print::main();
     println!("");
 }
