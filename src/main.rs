@@ -3,6 +3,7 @@ mod cli;
 mod conditionals;
 mod enums;
 mod functions;
+mod loops;
 
 fn main() {
     println!("--- Arrays ---");
@@ -23,5 +24,9 @@ fn main() {
 
     println!("--- Functions ---");
     functions::main();
+    println!("");
+
+    println!("--- Loops ---");
+    loops::main();
     println!("");
 }
