@@ -1,5 +1,6 @@
 mod arrays;
 mod cli;
+mod conditionals;
 
 fn main() {
     println!("--- Arrays ---");
@@ -8,5 +9,9 @@ fn main() {
 
     println!("--- Cli ---");
     cli::main();
+    println!("");
+
+    println!("--- Conditionals ---");
+    conditionals::main();
     println!("");
 }
