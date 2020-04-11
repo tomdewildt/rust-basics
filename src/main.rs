@@ -8,6 +8,7 @@ mod pointers;
 mod print;
 mod strings;
 mod structs;
+mod tuples;
 
 fn main() {
     println!("--- Arrays ---");
@@ -48,5 +49,9 @@ fn main() {
 
     println!("--- Structs ---");
     structs::main();
+    println!("");
+
+    println!("--- Tuples ---");
+    tuples::main();
     println!("");
 }
