@@ -1,5 +1,5 @@
 # Rust Basics
-[![Build](https://img.shields.io/github/workflow/status/tomdewildt/rust-basics/ci/master)](https://github.com/tomdewildt/rust-basics/actions?query=workflow%3Aci)
+[![Build](https://img.shields.io/github/actions/workflow/status/tomdewildt/rust-basics/ci.yml?branch=master)](https://github.com/tomdewildt/rust-basics/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/tomdewildt/rust-basics)](https://github.com/tomdewildt/rust-basics/blob/master/LICENSE)
 
 Syntax basics for the rust programming language.
